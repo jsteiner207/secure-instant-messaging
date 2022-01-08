@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-08T06:38:34.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.137 Safari/537.36" etag="nHSSjN-Zji64TUKaxndg" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-08T09:29:21.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.137 Safari/537.36" etag="KJLOhfg7mb75b1AEJztP" version="16.2.4" type="github">
   <diagram id="uitrMO1AaJZe0HgwEuxK" name="Page-1">
-    <mxGraphModel dx="3604" dy="2762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3064" dy="2431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-23" value="server backend" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;labelBackgroundColor=none;fontFamily=Lucida Console;strokeWidth=6;gradientDirection=south;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="707.5" y="250" width="165" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.01;exitY=0.805;exitDx=0;exitDy=0;entryX=0.006;entryY=0.448;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#CCFFCC;startArrow=block;startFill=1;sourcePerimeterSpacing=15;targetPerimeterSpacing=49;strokeWidth=4;strokeColor=default;dashed=1;exitPerimeter=0;entryPerimeter=0;" parent="1" source="pYnr8Tc2lTxlnqV0wQ_2-26" target="pYnr8Tc2lTxlnqV0wQ_2-23" edge="1">
+        <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.01;exitY=0.805;exitDx=0;exitDy=0;entryX=0.006;entryY=0.448;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#CCFFCC;startArrow=none;startFill=0;sourcePerimeterSpacing=15;targetPerimeterSpacing=49;strokeWidth=4;strokeColor=default;dashed=1;exitPerimeter=0;entryPerimeter=0;" parent="1" source="pYnr8Tc2lTxlnqV0wQ_2-26" target="pYnr8Tc2lTxlnqV0wQ_2-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-41" value="Encrypted data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Lucida Console;fontColor=#CCFFCC;fontSize=15;" parent="pYnr8Tc2lTxlnqV0wQ_2-38" vertex="1" connectable="0">
@@ -29,11 +29,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-42" value="&lt;font style=&quot;font-size: 15px&quot;&gt;The client application is ran in a docker container, the client front end makes calls to the client backend within the container, which will&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=0;labelBackgroundColor=none;fontFamily=Lucida Console;strokeWidth=6;fillColor=#d5e8d4;gradientDirection=south;strokeColor=#82b366;gradientColor=#97d077;labelBorderColor=none;fontColor=#121212;" parent="1" vertex="1">
+        <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-42" value="&lt;font style=&quot;font-size: 15px&quot;&gt;The client application is ran in a docker container&lt;br&gt;&lt;br&gt;&amp;nbsp;the client frontend makes calls to the client backend in the container, which will reach out to&amp;nbsp;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=0;labelBackgroundColor=none;fontFamily=Lucida Console;strokeWidth=6;fillColor=#d5e8d4;gradientDirection=south;strokeColor=#82b366;gradientColor=#97d077;labelBorderColor=none;fontColor=#121212;" parent="1" vertex="1">
           <mxGeometry x="-220" y="32.5" width="210" height="250" as="geometry" />
         </mxCell>
         <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-50" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="10" y="32.5" width="215.24" height="365" as="geometry" />
+          <mxGeometry x="10" y="40" width="225" height="365" as="geometry" />
         </mxCell>
         <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-5" value="front-end application" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#2D7600;fillColor=#60a917;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.lcd_monitor;fontColor=#009900;gradientColor=#ffffff;gradientDirection=south;fontFamily=Lucida Console;container=0;" parent="pYnr8Tc2lTxlnqV0wQ_2-50" vertex="1">
           <mxGeometry x="50" y="30" width="100" height="90" as="geometry" />
@@ -47,8 +47,11 @@
         <mxCell id="pYnr8Tc2lTxlnqV0wQ_2-26" value="Docker Container" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Lucida Console;fontColor=#ffffff;strokeWidth=6;fillColor=none;gradientDirection=south;strokeColor=#006EAF;verticalAlign=top;container=0;" parent="pYnr8Tc2lTxlnqV0wQ_2-50" vertex="1">
           <mxGeometry width="200" height="365" as="geometry" />
         </mxCell>
-        <mxCell id="LIlcAr5X8soDFpDNZf75-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2127/48/social_media_social_media_logo_docker-128.png;shadow=0;labelBorderColor=none;fontFamily=Lucida Console;fontSize=39;fontColor=#000033;strokeWidth=9;fillColor=default;gradientColor=none;gradientDirection=south;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-30" width="75" height="75" as="geometry" />
+        <mxCell id="LIlcAr5X8soDFpDNZf75-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2127/48/social_media_social_media_logo_docker-128.png;shadow=0;labelBorderColor=none;fontFamily=Lucida Console;fontSize=39;fontColor=#000033;strokeWidth=9;fillColor=default;gradientColor=none;gradientDirection=south;" vertex="1" parent="pYnr8Tc2lTxlnqV0wQ_2-50">
+          <mxGeometry x="150" y="-22.5" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="LIlcAr5X8soDFpDNZf75-201" value="symmetrical key" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Key_Vaults.svg;dashed=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#FFFFFF;strokeColor=#00FF80;strokeWidth=4;fillColor=#009191;gradientColor=#ffffff;" vertex="1" parent="pYnr8Tc2lTxlnqV0wQ_2-50">
+          <mxGeometry x="130" y="180" width="38.4" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LIlcAr5X8soDFpDNZf75-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.015;exitY=0.21;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#CCFFCC;startArrow=block;startFill=1;sourcePerimeterSpacing=15;targetPerimeterSpacing=49;strokeWidth=4;strokeColor=default;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="pYnr8Tc2lTxlnqV0wQ_2-26" target="pYnr8Tc2lTxlnqV0wQ_2-22">
           <mxGeometry relative="1" as="geometry">
@@ -420,8 +423,23 @@
         <mxCell id="LIlcAr5X8soDFpDNZf75-192" value="&lt;font style=&quot;font-size: 50px&quot;&gt;Mysql Database Structure&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1775" y="130" width="590" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LIlcAr5X8soDFpDNZf75-196" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;dashed=1;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=20;fontColor=#ffffff;strokeColor=#2D7600;strokeWidth=4;fillColor=#60a917;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-380" width="320" height="190" as="geometry" />
+        <mxCell id="LIlcAr5X8soDFpDNZf75-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.024;exitY=0.883;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontColor=#CCFFCC;startArrow=block;startFill=1;sourcePerimeterSpacing=15;targetPerimeterSpacing=49;strokeWidth=4;strokeColor=default;dashed=1;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="pYnr8Tc2lTxlnqV0wQ_2-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="222.00000000000045" y="336.3249999999998" as="sourcePoint" />
+            <mxPoint x="708" y="354" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="355" />
+              <mxPoint x="707" y="354" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIlcAr5X8soDFpDNZf75-198" value="Encrypted data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Lucida Console;fontColor=#CCFFCC;fontSize=15;" vertex="1" connectable="0" parent="LIlcAr5X8soDFpDNZf75-197">
+          <mxGeometry x="-0.1019" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIlcAr5X8soDFpDNZf75-214" value="&lt;span style=&quot;font-size: 15px&quot;&gt;json values are encrypted with public key encryption, this way no information can be retrieved from db&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;shadow=0;labelBackgroundColor=none;fontFamily=Lucida Console;strokeWidth=6;fillColor=#d5e8d4;gradientDirection=south;strokeColor=#82b366;gradientColor=#97d077;labelBorderColor=none;fontColor=#121212;" vertex="1" parent="1">
+          <mxGeometry x="230" y="137.5" width="210" height="152.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
