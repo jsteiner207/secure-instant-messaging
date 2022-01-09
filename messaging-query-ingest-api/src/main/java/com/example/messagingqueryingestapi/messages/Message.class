@@ -1,9 +1,0 @@
-package com.example.messagingqueryingestapi.message;
-
-public class Message {
-    private Long id;
-    private String messageBody;
-    private LocalDate sentTimestamp;
-}
-
-
